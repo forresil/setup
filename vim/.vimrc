@@ -10,6 +10,9 @@ set shiftwidth=4
 set noexpandtab
 
 set autowrite
+set updatetime=100
+
+let g:go_auto_sameids = 1
 let g:go_test_timeout = '10s'
 let g:go_fmt_command = "goimports"
 let g:go_metalinter_autosave = 1
