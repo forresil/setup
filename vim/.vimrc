@@ -1,5 +1,6 @@
 syntax on
-colorscheme elflord
+" colorscheme elflord
+colorscheme desert
 set t_Co=256
 set number
 set colorcolumn=110
