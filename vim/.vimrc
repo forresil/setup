@@ -4,6 +4,8 @@ colorscheme desert
 set t_Co=256
 set number
 set colorcolumn=110
+"Auto insert closing bracket while coding
+inoremap {<CR> {<CR>}<Esc>O
 highlight ColorColumn ctermbg=darkgray
 set tabstop=4
 set softtabstop=4
